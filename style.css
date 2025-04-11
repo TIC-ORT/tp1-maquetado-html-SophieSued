@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: white;
+  }
+  
+  /* HEADER */
+  .searchbarHeader {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .inputText {
+    padding: 0.5rem;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .botonHeader {
+    background-color: #ff9973;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    background-color: #ddd;
+    padding: 1rem 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .navbar li {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* SECCIÓN PRINCIPAL */
+  .section1 {
+    background-color: #ccf0f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .imagen-hero img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .texto-hero h1 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .texto-hero p {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* TARJETAS */
+  .tarjetas {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .tarjeta {
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .tarjeta.naranja {
+    background-color: #ffa07a;
+  }
+  
+  .tarjeta.celeste {
+    background-color: #b2e6ec;
+  }
+  
+  .tarjeta.amarilla {
+    background-color: #fcd76a;
+  }
+  
+  .imagen-placeholder {
+    width: 100%;
+    height: 100px;
+    background-color: #89c9d0;
+    margin-bottom: 1rem;
+  }
+  
