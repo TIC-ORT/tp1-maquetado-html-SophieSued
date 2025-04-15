@@ -108,3 +108,16 @@
     margin-bottom: 1rem;
   }
   
+  .contacto{
+    display: flex;
+    gap: 2em;
+  }
+
+  .imagen {
+    width: 100%;
+  }
+
+  .imagen2 {
+    width: 100%;
+
+  }
