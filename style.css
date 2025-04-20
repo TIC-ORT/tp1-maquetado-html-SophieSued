@@ -11,44 +11,63 @@
   
   /* HEADER */
   .searchbarHeader {
-    background-color: #f8f8f8;
-    padding: 1rem;
+    background-color: white; /* fondo blanco como en el wireframe */
+    padding: 2rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 0; /* sin espacio entre input y botón */
   }
   
   .inputText {
-    padding: 0.5rem;
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.8rem 1rem;
+    width: 300px;
+    background-color: #ffa07a; /* color salmón claro */
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 16px;
+    color: white;
   }
   
   .botonHeader {
-    background-color: #ff9973;
+    background-color: #4d4d4d; /* gris oscuro */
     color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
   }
   
-  .navbar {
-    background-color: #ddd;
-    padding: 1rem 0;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  .navbar li {
-    font-weight: bold;
-    color: #444;
-  }
+
+  /* NAVBAR */
+.navbar {
+  background-color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li a {
+  background-color: #e0e0e0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
   
   /* SECCIÓN PRINCIPAL */
   .section1 {
@@ -63,15 +82,15 @@
   .imagen-hero img {
     width: 100px;
     height: 100px;
+    display: flex;
+
   }
   
-  .texto-hero h1 {
+  .texto-hero {
     margin-bottom: 1rem;
     color: #333;
-  }
-  
-  .texto-hero p {
-    margin-bottom: 0.5rem;
+    display: flex;
+
   }
   
   /* TARJETAS */
