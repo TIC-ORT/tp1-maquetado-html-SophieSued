@@ -69,11 +69,12 @@
   
   /* SECCIÓN PRINCIPAL */
   .section1 {
+    background-color: #d4f1f6;
+    padding: 40px;
     display: flex;
-    gap: 40px;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px;
+    gap: 40px;
   }
   
   .tarjeta {
@@ -88,7 +89,7 @@
     justify-content: center; /* Centra verticalmente las filas */
 }
   
-  
+
   .fila {
     display: flex;
     align-items: center;
@@ -109,6 +110,26 @@
     height: 20px;
     background-color: white;
     border-radius: 3px;
+  }
+
+  .texto-hero {
+    height: 20px;
+    background-color: white; /* un celestito más claro que el fondo */
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  /* Variaciones de largo */
+  .linea-texto-larga{
+    width: 300px;
+  }
+  
+  .linea-texto-mediana {
+    width: 200px;
+  }
+  
+  .linea-texto-corta {
+    width: 100px;
   }
   
   /* TARJETAS */
@@ -143,5 +164,25 @@
     height: 100px;
     background-color: #89c9d0;
     margin-bottom: 1rem;
+  }
+
+  .textoBloque {
+    height: 20px;
+    background-color: #89c9d0
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  /* Variaciones de largo */
+  .bloque-texto-larga{
+    width: 300px;
+  }
+  
+  .bloque-texto-mediana {
+    width: 200px;
+  }
+  
+  .bloque-texto-corta {
+    width: 100px;
   }
   
