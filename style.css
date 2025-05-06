@@ -112,25 +112,43 @@
     border-radius: 3px;
   }
 
+  .contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontalmente */
+    text-align: center;
+    gap: 12px; /* espacio entre los elementos */
+  }
+  
   .texto-hero {
     height: 20px;
     background-color: grey; 
     border-radius: 4px;
     margin-bottom: 12px;
     width: 400px;
+
   }
   
   /* Variaciones de largo */
-  .linea-texto-larga{
+  .lineatextoLarga{
     width: 300px;
+    height: 10px;
+    background-color: white; 
+    
   }
   
-  .linea-texto-mediana {
-    width: 200px;
+  .lineatextoMediana {
+    width: 300px;
+    height: 10px;
+    background-color: white; 
+    
   }
   
-  .linea-texto-corta {
+  .lineatextoCorta {
     width: 100px;
+    height: 10px;
+    background-color: white; 
+    
   }
   
   /* TARJETAS */
