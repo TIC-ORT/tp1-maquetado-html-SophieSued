@@ -166,23 +166,4 @@
     margin-bottom: 1rem;
   }
 
-  .textoBloque {
-    height: 20px;
-    background-color: #89c9d0
-    border-radius: 4px;
-    margin-bottom: 12px;
-  }
-  
-  /* Variaciones de largo */
-  .bloque-texto-larga{
-    width: 300px;
-  }
-  
-  .bloque-texto-mediana {
-    width: 200px;
-  }
-  
-  .bloque-texto-corta {
-    width: 100px;
-  }
   
