@@ -61,6 +61,8 @@
 .navbar li {
   background-color: #d3d1d1; /* Gris claro */
   padding: 10px 40px;
+  width: 200px;
+  height: 1px;
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
@@ -183,6 +185,15 @@
     height: 100px;
     background-color: #89c9d0;
     margin-bottom: 1rem;
+  }
+
+  .contenedorCasillero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 6px; /* espacio entre los elementos */
   }
 
   .casillero {
