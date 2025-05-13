@@ -239,6 +239,7 @@
     flex-direction: column;
     gap: 6px;
     margin-top: 10px;
+    width: 100%;
   }
   
   .lineaGris {
