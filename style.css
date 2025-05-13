@@ -241,23 +241,27 @@
     margin-top: 10px;
     width: 100%;
   }
-  
-  .lineaGris {
-    height: 6px;
-    background-color: #ccc;
-    border-radius: 3px;
-  }
+
   
   .linea1 {
     width: 80%;
+    background-color: grey;
+    height: 15px;
+    gap: 6px;
   }
   
   .linea2 {
     width: 90%;
+    background-color: #d3d1d1;
+    height: 10px;
+    gap: 6px;
   }
   
   .linea3 {
     width: 60%;
+    background-color: #d3d1d1;
+    height: 10px;
+    gap: 6px;
   }
   
 /* Contenedor individual de tarjeta + descripción */
