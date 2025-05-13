@@ -87,7 +87,7 @@
     height: 180px;     /* ← MÁS ALTO */
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 
 }
   
@@ -95,7 +95,7 @@
   .fila {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
   }
   
   .botonIcono {
@@ -119,7 +119,7 @@
     flex-direction: column;
     align-items: center; /* centra horizontalmente */
     text-align: center;
-    gap: 12px; /* espacio entre los elementos */
+    gap: 8px; /* espacio entre los elementos */
   }
   
   .texto-hero {
@@ -233,6 +233,48 @@
     justify-content: center;
     
   }
+
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  
+  .lineaGris {
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 3px;
+  }
+  
+  .linea1 {
+    width: 80%;
+  }
+  
+  .linea2 {
+    width: 90%;
+  }
+  
+  .linea3 {
+    width: 60%;
+  }
+  
+/* Contenedor individual de tarjeta + descripción */
+.tarjeta-con-descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px; /* Igual o un poco mayor al width de la tarjeta */
+  gap: 10px;
+}
+
+/* Ajustes al contenedor principal de las tarjetas */
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 20px; /* espacio entre columnas */
+}
 
   
   
